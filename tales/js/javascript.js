@@ -10,4 +10,16 @@ $(function(){
 			.next().show();
 		}
     });
+    $('.subtitle').click(function(){
+    	$('.textmain').fadeIn("slow")
+    });
+    $('.subtitle2').click(function(){
+    	$('.textmain2').fadeIn("slow")
+    });
+    $('.subtitle3').click(function(){
+    	$('.textmain3').fadeIn("slow")
+    });
+    $('.contents').click(function() {
+    	$('.contentsText').fadeIn("slow")
+    });
 });
